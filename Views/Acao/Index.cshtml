@@ -1,0 +1,36 @@
+@model IEnumerable<AppAcao.Models.Tarefa>
+
+    </br></br>
+    <a href="Acao/Create" class="btn btn-primary">Nova Tarefa</a>
+    </br></br>
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Número</th>
+                    <th>Nome</th>
+                    <th>Data</th>
+                    <th>Percentual</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </tr>
+            <thead>
+
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.numero</td>
+                    <td>@item.nome</td>
+                    <td>@item.limite</td>
+                    <td>@item.percentual</td>
+                    <td><a class="btn btn-danger"
+                        href="Acao/Delete/@item.numero">Delete</a></td>
+                    <td><a class="btn btn-primary"
+                        href="Acao/Edit/@item.numero">Editar</a></td>
+                </tr>
+
+            }
+        </table>
+    </div>
