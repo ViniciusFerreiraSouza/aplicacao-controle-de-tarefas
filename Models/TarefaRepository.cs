@@ -1,7 +1,11 @@
 namespace aplicacao_controle_de_tarefas.Models
 {
-    public class TarefaRepository
+    public class TarefaRepository : ITarefaRepository
     {
+        private DataContext context;
+
+        public TarefaRepository(DataContext context)
+        
         public static List<Tarefa> acao = new List<Tarefa>();
 
         public TarefaRepository()

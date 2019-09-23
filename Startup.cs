@@ -33,6 +33,10 @@ namespace aplicacao_controle_de_tarefas
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+   
+             services.AddDbContext<DataContext>(x=>x.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<ITarefaRepository,TarefaRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

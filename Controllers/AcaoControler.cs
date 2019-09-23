@@ -1,7 +1,14 @@
 namespace aplicacao_controle_de_tarefas.Controllers
+
 {
     public class AcaoControler : Controller
     {
+        private readonly ITarefaRepository acao;
+
+        public TarefaController(ITarefaController tarefaRepository)
+        {
+            acao = tarefaRepository;
+        }
         TarefaRepository _repository =
         new TarefaRepository();
 

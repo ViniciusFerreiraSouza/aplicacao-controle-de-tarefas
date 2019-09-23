@@ -1,0 +1,6 @@
+C:\Users\note\Desktop\Trabalho Dotnet 02.09\aplicacao-controle-de-tarefas\obj\Debug\netcoreapp2.2\aplicacao-controle-de-tarefas.csprojAssemblyReference.cache
+C:\Users\note\Desktop\Trabalho Dotnet 02.09\aplicacao-controle-de-tarefas\obj\Debug\netcoreapp2.2\aplicacao-controle-de-tarefas.csproj.CoreCompileInputs.cache
+C:\Users\note\Desktop\Trabalho Dotnet 02.09\aplicacao-controle-de-tarefas\obj\Debug\netcoreapp2.2\aplicacao-controle-de-tarefas.RazorAssemblyInfo.cache
+C:\Users\note\Desktop\Trabalho Dotnet 02.09\aplicacao-controle-de-tarefas\obj\Debug\netcoreapp2.2\aplicacao-controle-de-tarefas.RazorAssemblyInfo.cs
+C:\Users\note\Desktop\Trabalho Dotnet 02.09\aplicacao-controle-de-tarefas\obj\Debug\netcoreapp2.2\aplicacao-controle-de-tarefas.AssemblyInfoInputs.cache
+C:\Users\note\Desktop\Trabalho Dotnet 02.09\aplicacao-controle-de-tarefas\obj\Debug\netcoreapp2.2\aplicacao-controle-de-tarefas.AssemblyInfo.cs
